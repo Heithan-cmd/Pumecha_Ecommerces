@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    background-color: #171326;
+    color: #f4e8c1;
+}
+
+.menu-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.menu-bar .navbar {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.menu-bar .container-fluid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-bar .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar .navbar-brand img {
+    display: block;
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.menu-bar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.menu-bar .nav-link {
+    color: #f4e8c1;
+    font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 18px;
+    padding: 10px 12px;
+    margin: 0;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.menu-bar .nav-link:hover,
+.menu-bar .nav-link.active {
+    color: #e6cc91;
+}
+
+.products-header {
+    padding: 140px 20px 50px;
+    text-align: center;
+    background-color: #171326;
+}
+
+.products-header h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #e6cc91;
+}
+
+.products-header p {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: #d7c6f5;
+}
+
+.products-section {
+    background-color: #171326;
+    min-height: 600px;
+}
+
+.product-card {
+    background-color: #252039;
+    color: #f4e8c1;
+    border: 1px solid #514568;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.product-card .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-card .card-title {
+    font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-weight: bold;
+    color: #d7c6f5;
+}
+
+.product-card .card-text {
+    line-height: 1.6;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e6cc91;
+}
+
+.home-button {
+    background-color: #514568;
+    color: #f4e8c1;
+    border: 1px solid #8d79b5;
+}
+
+.home-button:hover {
+    background-color: #6c598c;
+    color: #ffffff;
+    border-color: #d7c6f5;
+}
+
+
+.testimonials {
+    padding: 60px 7%;
+    background-color: #201b30;
+    color: #f4e8c1;
+    text-align: center;
+}
+
+.testimonial-heading {
+    max-width: 700px;
+    margin: 0 auto 35px;
+}
+
+.section-subtitle {
+    color: #e6cc91;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.testimonial-heading h2 {
+    color: #e6cc91;
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.testimonial-heading > p:last-child {
+    line-height: 1.7;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.testimonial-card {
+    flex: 1 1 250px;
+    max-width: 360px;
+    padding: 28px 22px;
+    background-color: #252039;
+    border: 1px solid #80683e;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    border-color: #e6cc91;
+}
+
+.testimonial-pic {
+    display: block;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #e6cc91;
+    margin: 0 auto 18px;
+    box-shadow: 0 0 12px rgba(230, 204, 145, 0.25);
+}
+
+.testimonial-product {
+    display: block;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: 3px solid #e6cc91;
+    margin: 0 auto 18px;
+    box-shadow: 0 0 12px rgba(230, 204, 145, 0.25);
+}
+
+.stars {
+    color: #e6cc91;
+    font-size: 23px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    color: #f4e8c1;
+    font-style: italic;
+    line-height: 1.8;
+    min-height: 50px;
+    font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.testimonial-card h2 {
+    color: #e6cc91;
+    font-size: 18px;
+    margin: 0px 0 5px;
+    min-height: 30px;
+}
+
+.testimonial-card span {
+    color: #c8b8e8;
+    font-size: 13px;
+}
+
+.site-footer {
+    background-color: #100e1c;
+    color: #f4e8c1;
+    border-top: 3px solid #c9a85c;
+    padding: 45px 7% 0;
+    font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    flex: 1 1 220px;
+}
+
+.footer-about h2 {
+    color: #e6cc91;
+    font-size: 23px;
+}
+
+.footer-container h3 {
+    color: #e6cc91;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-about p,
+.footer-contact p {
+    color: #d7c6f5;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-links h3 {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #f4e8c1;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #e6cc91;
+}
+
+.footer-bottom {
+    border-top: 1px solid #51432e;
+    padding: 18px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #c8b8e8;
+    font-size: 13px;
+    margin: 6px 0;
+}
